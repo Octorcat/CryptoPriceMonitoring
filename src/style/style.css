@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?djnw82');
+    src:  url('fonts/icomoon.eot?djnw82#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?djnw82') format('truetype'),
+      url('fonts/icomoon.woff?djnw82') format('woff'),
+      url('fonts/icomoon.svg?djnw82#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-contact_noti .path1:before {
+    content: "\e900";
+   
+  }
+  .icon-contact_noti .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+  
+  }
+  .icon-iconly_bell .path1:before {
+    content: "\e902";
+  
+  }
+  .icon-iconly_bell .path2:before {
+    content: "\e903";
+    margin-left: -1em;
+   
+    opacity: 0.4;
+  }
+  .icon-iconly_bell_gray .path1:before {
+    content: "\e904";
+    
+  }
+  .icon-iconly_bell_gray .path2:before {
+    content: "\e905";
+    margin-left: -1em;
+   
+    opacity: 0.4;
+  }
+  .icon-iconly_bulk .path1:before {
+    content: "\e906";
+   
+    opacity: 0.4;
+  }
+  .icon-iconly_bulk .path2:before {
+    content: "\e907";
+    margin-left: -1em;
+  
+  }
+  .icon-iconly_bulk .path3:before {
+    content: "\e908";
+    margin-left: -1em;
+    opacity: 0.4;
+  }
+  .icon-iconly_delete .path1:before {
+    content: "\e909";
+   
+    opacity: 0.4;
+  }
+  .icon-iconly_delete .path2:before {
+    content: "\e90a";
+    margin-left: -1em;
+    
+  }
+  .icon-iconly_wallet .path1:before {
+    content: "\e90b";
+    
+  }
+  .icon-iconly_wallet .path2:before {
+    content: "\e90c";
+    margin-left: -1em;
+   
+    opacity: 0.4;
+  }
+  .icon-iconly_wallet .path3:before {
+    content: "\e90d";
+    margin-left: -1em;
+    
+  }
+  .icon-iconly_white .path1:before {
+    content: "\e90e";
+    
+  }
+  .icon-iconly_white .path2:before {
+    content: "\e90f";
+    margin-left: -1em;
+    
+    opacity: 0.4;
+  }
+  .icon_set a{
+    color: #7b7b7b;
+  }
+  .icon_set a .icon-iconly_bell_gray {
+      font-size: 18px;
+      vertical-align: middle;
+  }
+  
+  .icon_set a:hover {
+      color: transparent;
+  }
+  .b_font {
+      font-size: 20px;
+      vertical-align: text-bottom;
+      padding-right: 2px;
+  }
+
+  .hidden {
+    width: 75px;
+    margin-left: 15px;
+    border-radius: 12px;
+    border: 1px solid rgb(222, 164, 71);
+    background-color: rgb(38, 38, 38);
+    color: rgb(222, 164, 71);
+    cursor: pointer;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .hidden:hover {
+    background: #EEAF4B;
+    border: 1px solid #EEAF4B;
+    color: white;
+  }
+  
+  .hidden:focus {
+    outline: unset !important;
+  }
+
+  .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    background-color: unset !important;
+  }
+
+  .css-1cogvys-MuiTableCell-root.MuiTableCell-head {
+    background-color: unset !important;
+    text-align: center;
+    padding: 12px 16px;
+  }
+
+  .css-l6w1so-MuiTableCell-root.MuiTableCell-head {
+    background-color: unset !important;
+    text-align: center;
+    padding: 12px 16px;
+  }
+
+  .once_per:focus-visible {
+    outline-offset: none !important;
+  }
+
+  @media only screen and (max-width: 560px) {
+    .navbar {
+      flex-wrap: unset;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    a#pills-wallet-tab {
+      width: 125px;
+    }
+  }
+
+  .apexcharts-tooltip {
+    background: #f3f3f3;
+    color: orange;
+  }
+
